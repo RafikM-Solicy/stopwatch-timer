@@ -1,0 +1,28 @@
+.stopwatch-container {
+    text-align: center;
+}
+
+.stopwatch-title {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.stopwatch-time {
+    font-size: 48px;
+    margin-bottom: 0;
+    transition: color 1s ease;
+}
+
+.stopwatch-buttons {
+    margin-top: 20px;
+}
+
+.stopwatch-button {
+    margin-right: 8px;
+    padding: 32px 64px;
+    font-size: 25px;
+}
+
+.stopwatch-time.active {
+    color: red;
+}

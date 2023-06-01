@@ -1,0 +1,41 @@
+.timer-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.timer-title {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.timer-input label {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.timer-input input {
+    padding: 4px 8px;
+    font-size: 40px;
+    width: 80px;
+    margin-right: 50px;
+}
+
+.timer-time {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.timer-time.active {
+    color: #034591;
+    animation: blink 1s infinite;
+}
+
+.timer-buttons {
+    margin-top: 20px;
+}
+
+.timer-button {
+    margin-right: 8px;
+    padding: 32px 64px;
+    font-size: 25px;
+}
